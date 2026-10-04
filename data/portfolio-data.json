@@ -1,0 +1,198 @@
+{
+  "profile": {
+    "name": "Sakthi Sudharsini S",
+    "title": "Software Engineer | Generative AI | LLM Applications | Python",
+    "positioning": "Generative AI Software Engineer",
+    "yearsOfExperience": "1–2 Years",
+    "location": "Coimbatore, Tamil Nadu",
+    "email": "sakthisudharsini@gmail.com",
+    "phone": "+91 95665 18394",
+    "github": "https://github.com/sakthi5",
+    "linkedin": "https://linkedin.com/in/sakthi-sudharsini-s-bb934720b",
+    "summary": "Software Engineer with experience in Python, application development, Generative AI, and backend systems. Experienced in building LLM-based applications using FastAPI and Groq API, with capabilities including conversational memory, streaming, document processing, multimodal AI, and model integration. Also experienced in developing computer vision solutions for mobile applications, including face detection, face embeddings, identity verification, and API-based integration."
+  },
+  "workExperience": [
+    {
+      "id": "qube-space",
+      "company": "Qube Space LLP",
+      "role": "Software Engineer",
+      "location": "Coimbatore, Tamil Nadu",
+      "employmentType": "Full-time",
+      "startDate": "November 2024",
+      "endDate": "Present",
+      "current": true,
+      "responsibilities": [
+        "Developed 50+ responsive web pages across education, sports, food, landing-page, and business domains using Next.js, JavaScript, HTML, CSS, and Bootstrap.",
+        "Built reusable frontend components and collaborated with developers and clients to deliver responsive web applications across desktop, tablet, and mobile.",
+        "Built a Python-based face verification service for a native mobile employee attendance application, integrating AI-based identity verification into the check-in/check-out workflow."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "React.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap 5",
+        "InsightFace",
+        "ONNXRuntime",
+        "OpenCV",
+        "NumPy",
+        "MongoDB",
+        "Git"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "genai-conversational-assistant",
+      "slug": "genai-conversational-assistant",
+      "title": "GenAI Conversational AI Assistant",
+      "category": ["Generative AI", "LLM Applications", "FastAPI Backend"],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Groq API",
+        "GPT-OSS-20B",
+        "Qwen3.6-27B",
+        "SQLAlchemy",
+        "SQLite",
+        "Uvicorn",
+        "REST APIs"
+      ],
+      "description": "Built a ChatGPT-style multimodal AI assistant using Groq API with streamed LLM responses, persistent multi-turn conversations, conversation management, and automatic conversation titles.",
+      "features": [
+        "Streamed LLM responses with low latency via Groq API",
+        "Persistent multi-turn conversations and automated titling",
+        "PDF, TXT, DOCX document understanding",
+        "Image understanding using vision-capable Qwen model",
+        "AI image generation and context persistence",
+        "Database-backed chat management with SQLAlchemy and SQLite",
+        "Graceful LLM/API failure handling",
+        "59 automated tests covering chat, history, documents, vision, image generation, and export"
+      ],
+      "metrics": {
+        "automatedTests": 59,
+        "supportedDocuments": ["PDF", "TXT", "DOCX"],
+        "streaming": true
+      },
+      "github": "https://github.com/sakthi5"
+    },
+    {
+      "id": "face-verification-service",
+      "slug": "face-verification-service",
+      "title": "Face Verification Service - Mobile Attendance Application",
+      "category": ["Computer Vision", "Backend Microservice", "AI Inference"],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "InsightFace",
+        "ONNXRuntime",
+        "OpenCV",
+        "NumPy",
+        "MongoDB",
+        "PyMongo"
+      ],
+      "description": "Built a FastAPI-based face verification service for a native mobile employee check-in/check-out application, implementing face detection, 512-dimensional face embeddings, and cosine-similarity matching with InsightFace.",
+      "features": [
+        "512-dimensional face embedding extraction via InsightFace",
+        "Cosine-similarity matching for rapid biometric verification",
+        "Enrollment and verification APIs with image quality checks",
+        "Single-face validation and duplicate-face detection",
+        "Configurable similarity thresholding",
+        "Admin-protected face-data deletion",
+        "Inference optimization: selective model loading, reduced detection input size, thread pool execution"
+      ],
+      "metrics": {
+        "embeddingDimensions": 512,
+        "concurrency": "Thread-pool offloaded"
+      },
+      "github": "https://github.com/sakthi5"
+    },
+    {
+      "id": "tirupati-mahaal",
+      "slug": "tirupati-mahaal",
+      "title": "Tirupati Mahaal - Website Development",
+      "category": ["Frontend Development", "Client Project"],
+      "technologies": [
+        "Next.js",
+        "React.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Responsive Web Design"
+      ],
+      "description": "Developed and deployed a responsive client website using Next.js with reusable components and mobile-friendly layouts.",
+      "features": [
+        "Reusable frontend components",
+        "Mobile-friendly and tablet-optimized layouts",
+        "Direct client requirement gathering and production delivery"
+      ],
+      "github": "https://github.com/sakthi5"
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "JavaScript", "TypeScript"],
+    "generativeAI": [
+      "LLMs",
+      "Prompt Engineering",
+      "Groq API",
+      "Multimodal AI",
+      "Vision AI",
+      "Image Generation"
+    ],
+    "llmApplications": [
+      "Conversational Memory",
+      "Streaming",
+      "Document Processing",
+      "Context Management",
+      "Model Routing"
+    ],
+    "aiModels": ["GPT-OSS-20B", "Qwen3.6-27B"],
+    "backend": ["FastAPI", "REST APIs", "Uvicorn"],
+    "computerVision": [
+      "InsightFace",
+      "Face Detection",
+      "Face Embeddings (512-D)",
+      "Face Verification",
+      "ONNXRuntime",
+      "OpenCV"
+    ],
+    "dataAndLibraries": [
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "SQLAlchemy",
+      "PyMongo"
+    ],
+    "frontend": [
+      "Next.js",
+      "React.js",
+      "HTML5",
+      "CSS3",
+      "Bootstrap 5"
+    ],
+    "databaseAndTools": [
+      "MongoDB",
+      "PostgreSQL",
+      "SQLite",
+      "Prisma",
+      "Supabase",
+      "Git",
+      "GitHub"
+    ]
+  },
+  "education": [
+    {
+      "degree": "B.Tech, Information Technology",
+      "institution": "KGISL Institute of Technology",
+      "year": "2023",
+      "cgpa": "8.4 / 10"
+    }
+  ],
+  "spokenLanguages": [
+    { "language": "English", "proficiency": "Professional" },
+    { "language": "Tamil", "proficiency": "Native" }
+  ]
+}
